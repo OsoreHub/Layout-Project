@@ -1,0 +1,91 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 111px 0 100px;
+}
+
+.testimonials__title {
+    width: 25%;
+    text-align: center;
+
+    h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+}
+
+.testimonials__people {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        margin: 90px 0 60px
+    }
+
+    p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #374754;
+    }
+}
+
+
+.testimonials__people-box {
+    width: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    img {
+        margin: 0;
+    }
+}
+
+.testimonials__people-text {
+    h6 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #374754;
+    }
+
+    p {
+        margin-top: 8px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        width: 78px;
+    }
+}
+
+.testimonials {
+    button {
+        margin-top: 80px;
+        width: 280px;
+        height: 65px;
+        background: #38A3F1;
+        border-radius: 35px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+}

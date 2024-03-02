@@ -1,0 +1,48 @@
+.prototyping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 0 116px;
+
+    img {
+        margin-top: 96px;
+    }
+}
+
+.prototyping__info {
+    width: 20%;
+    text-align: center;
+
+    h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    h4 {
+        margin-top: 27px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #374754;
+    }
+
+    button {
+        width: 236px;
+        height: 65px;
+        background: #38A3F1;
+        border-radius: 35px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+        margin-top: 90px;
+    }
+}

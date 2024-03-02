@@ -1,0 +1,258 @@
+// HEADER
+
+@media screen and (max-width: 1280px) {
+    .header__inner {
+        padding-top: 28px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header__menu-img {
+        display: block;
+    }
+
+    .header__info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .header__pc-img {
+        display: none;
+    }
+
+    .header__mob-img {
+        display: block;
+        width: 600px;
+    }
+
+    .header__text {
+        text-align: center;
+        margin-top: 117px;
+        margin-bottom: 69px;
+        width: 80%;
+
+        h1 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 46px;
+            line-height: 57px;
+            text-align: center;
+            letter-spacing: 0.2px;
+        }
+
+        button {
+            display: none;
+        }
+    }
+
+    .header__mob-btn {
+        display: block;
+        margin-top: 65px;
+    }
+}
+
+// MAIN
+// FEATURES
+
+@media screen and (max-width: 1280px) {
+    .features {
+        padding: 136px 0 108px;
+    }
+
+    .features__text {
+        width: 70%;
+    }
+
+    .features__article-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        width: 100%;
+    }
+
+    .features__article {
+        width: 68%;
+        margin-bottom: 95px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+// PROTOTYPING
+
+@media screen and (max-width: 1280px) {
+    .prototyping {
+        padding: 90px 0 80px;
+    }
+
+    .prototyping__info {
+        width: 80%;
+    }
+}
+
+// YOUR-PROTOTYPING
+
+@media screen and (max-width: 1280px) {
+    .your-prototyping {
+        padding: 81px 0 114px;
+    }
+
+    .your-prototyping__subscribe-box {
+        width: 90%;
+    }
+}
+
+// PARTNERS
+
+@media screen and (max-width: 1280px) {
+    .partners {
+        padding: 100px 0 50px;
+    }
+
+    .partners__title {
+        width: 80%;
+    }
+
+    .partners__article-box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partners__article {
+        width: 50%;
+    }
+}
+
+// TESTIMONIALS
+
+@media screen and (max-width: 1280px) {
+    .testimonials {
+        padding: 121px 0 100px;
+    }
+
+    .testimonials__title {
+        width: 90%;
+    }
+
+    .testimonials__people {
+        width: 80%;
+    }
+}
+
+// PRICING
+
+@media screen and (max-width: 1700px) {
+    .pricing__box {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .pricing__box {
+        width: 85%;
+    }
+
+    .pricing__title {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .pricing__box {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .pricing__box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 108px;
+    }
+
+    .pricing {
+        padding: 121px 0 118px;
+    }
+
+    .pricing__title {
+        width: 80%;
+    }
+
+    .pricing__card {
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+// CONTACT-US
+
+@media screen and (max-width: 1280px) {
+    .contact-us {
+        padding: 160px 0 149px;
+    }
+
+    .contact-us__title {
+        width: 80%;
+    }
+
+    .contact-us__register {
+        width: 90%;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .contact-us__links {
+        margin: 0 0 90px;
+    }
+
+    .contact-us__form {
+        width: 100%;
+        margin-top: 78px;
+    }
+
+    .contact-us__info {
+        width: 75%;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+// FOOTER 
+
+@media screen and (max-width: 1280px) {
+    .footer {
+        padding-bottom: 136px 0 130px;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+
+    .footer__developers {
+        text-align: center;
+    }
+
+    .footer__map {
+        width: 90%;
+        margin: 50px 0 65px;
+    }
+
+    .footer__info {
+        width: 70%;
+        margin-left: 0;
+    }
+}
+
+
+
+

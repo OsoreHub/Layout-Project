@@ -1,0 +1,96 @@
+.your-prototyping {
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 81px 0 104px;
+}
+
+.your-prototyping__subscribe-box {
+    width: 40%;
+    text-align: center;
+}
+
+.your-prototyping__subscribe-title {
+
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 57px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+}
+
+.your-prototyping__subscribe-email {
+    margin-top: 69px;
+
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+
+    p {
+        margin: 10px 0 34px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+            outline: none;
+            width: 353px;
+            height: 54px;
+            background: #F4F4F4;
+            border: 1px solid #E8E8E8;
+            border-radius: 39px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #18171D;
+            padding: 19px 35px;
+        }
+
+        button {
+            width: 353px;
+            height: 50px;
+            left: 0px;
+            top: 90px;
+            background: #EF2779;
+            border-radius: 35px;
+            color: white;
+            margin-top: 12px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0.2px;
+        }
+    }
+}
